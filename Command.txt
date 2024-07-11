@@ -1,0 +1,3 @@
+dotnet new classlib -o .\src\Infrastructure -n Infrastructure
+dotnet new webapi -o .\src\Presentation -n Presentation
+dotnet sln add .\src\Presentation
